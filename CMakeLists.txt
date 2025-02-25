@@ -14,5 +14,6 @@ set(SOURCE_FILES src/main.c src/app.c)
 add_executable(chess ${SOURCE_FILES})
 
 include_directories(include/)
+include_directories(ChessAssets/)
 
 target_link_libraries(chess PRIVATE SDL3_image::SDL3_image SDL3::SDL3)
